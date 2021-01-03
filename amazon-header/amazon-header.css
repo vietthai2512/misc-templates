@@ -1,9 +1,18 @@
+:root {
+	--main-header-bg: #232f3e;
+	--second-header-bg: #131921;
+	--main-border: #ff9000;
+	--main-border-shadow: #febd69;
+	--main-text: #f3a847;
+	--second-text: white;
+}
+
 a {
 	text-decoration: none;
 	color: white;
 }
 header {
-	background: #232f3e;
+	background: var(--main-header-bg);
 	height: 5rem;
 	font-size: 1rem;
 	/*line-height: 1rem;*/
@@ -20,7 +29,7 @@ header {
 	display: flex;
 	height: 3.5rem;
 	width: 100%;
-	background: #131921;
+	background: var(--second-header-bg);
 }
 
 #nav-belt > .nav-left {
