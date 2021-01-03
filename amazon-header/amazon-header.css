@@ -17,7 +17,6 @@ header {
 	background: var(--main-header-bg);
 	height: 5rem;
 	font-size: 1rem;
-	/*line-height: 1rem;*/
 	display: flex;
 }
 
@@ -65,7 +64,6 @@ header {
 	box-sizing: border-box;
 	display: flex;
 	flex: 1 1 auto;
-	/*width: auto;*/
 }
 
 #nav-search {
@@ -113,10 +111,6 @@ header {
 	background: var(--main-search-opt);
 }
 
-/*#nav-search-bar-form .nav-left a:focus {
-	border: 0.1rem solid red;
-}*/
-
 #nav-search-bar-form .nav-fill {
 	box-sizing: border-box;
 	display: flex;
@@ -135,14 +129,10 @@ header {
 	font-size: 1rem;
 	text-indent: 0.5rem;
 	border: 0;
-	/*margin: 0.1rem;*/
 }
 
 #nav-search-bar-form .nav-fill > input:focus {
 	outline: none;
-	/*border-top: 0.1rem solid red;
-	border-bottom: 0.1rem solid red;
-	margin: 0rem;*/
 }
 
 #nav-search-bar-form .nav-right {
@@ -150,8 +140,6 @@ header {
 	display: flex;
 	background: var(--main-border-shadow);
 	align-items: center;
-	/*border-left: 1px solid #cdcdcd;*/
-	/*padding: 0.5rem 0.5rem 0.5rem 0.5rem;*/
 }
 
 #nav-search-bar-form .nav-right > button {
