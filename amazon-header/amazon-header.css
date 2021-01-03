@@ -7,6 +7,7 @@
 	--second-text: white;
 	--main-search-opt: #cdcdcd;
 	--second-search-opt: #f3f3f3;
+	--border-radius: 0.2rem;
 }
 
 a {
@@ -54,7 +55,7 @@ header {
 
 #nav-logo > a:hover {
 	border: 0.1rem solid var(--main-border);
-	border-radius: 0.2rem;
+	border-radius: var(--border-radius);
 	margin: 0;
 	color: var(--main-text);
 	box-shadow: 0rem 0rem 0.3rem var(--main-border-shadow);
@@ -79,7 +80,7 @@ header {
 	box-sizing: border-box;
 	display: flex;
 	flex: 1 1 auto;
-	border-radius: 0.2rem;
+	border-radius: var(--border-radius);
 	overflow: hidden;
 }
 
@@ -180,7 +181,7 @@ header {
 
 #nav-tools > a:hover {
 	border: 0.1rem solid var(--main-border);
-	border-radius: 0.2rem;
+	border-radius: var(--border-radius);
 	margin: 0;
 	color: var(--main-text);
 	box-shadow: 0rem 0rem 0.3rem var(--main-border-shadow);
